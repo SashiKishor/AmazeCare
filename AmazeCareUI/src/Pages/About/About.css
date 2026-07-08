@@ -1,0 +1,126 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.about-hero {
+    background-color: #8b1031;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+.about-hero h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.about-hero p {
+    font-size: 20px;
+    font-style: italic;
+    opacity: 0.9;
+}
+.heading-underline {
+    height: 3px;
+    width: 60px;
+    background-color: #8b1031;
+    margin-bottom: 30px;
+}
+.about-mission {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    gap: 50px;
+}
+.mission-text {
+    flex: 1;
+    min-width: 300px;
+}
+.mission-text h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.mission-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+.mission-image {
+    flex: 1;
+    min-width: 300px;
+}
+.mission-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.about-values {
+    background-color: #f9f9f9;
+    padding: 80px 20px;
+}
+.values-header {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.values-header h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.values-header .heading-underline {
+    margin: 0 auto 50px auto;
+}
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.value-card {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-bottom: 4px solid #8b1031;
+}
+.value-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.value-card h3 {
+    color: #8b1031;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.value-card p {
+    color: #666;
+    line-height: 1.6;
+}
+.about-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    background-color: #333333;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+.stat-box h3 {
+    font-size: 48px;
+    margin: 0 0 10px 0;
+    color: #8b1031;
+}
+.stat-box p {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}

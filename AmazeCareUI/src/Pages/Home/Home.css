@@ -1,0 +1,104 @@
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(139, 16, 49, 0.85), rgba(139, 16, 49, 0.85)), url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=2000&auto=format&fit=crop') center/cover no-repeat;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #8b1031; 
+}
+
+.btn-primary:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #ffffff;
+    color: #8b1031; 
+}
+
+
+
+.cta-section {
+    background-color: #8b1031; 
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.cta-section h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-urgent {
+    background-color: #ffffff;
+    color: #8b1031;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 50px; 
+}
+
+.btn-urgent:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
